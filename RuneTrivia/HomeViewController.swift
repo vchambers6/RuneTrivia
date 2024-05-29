@@ -43,12 +43,12 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return games.count
+        return Game.games.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GameCollectionViewCell", for: indexPath) as! GameCollectionViewCell
-        cell.setup(with: games[indexPath.row])
+        cell.setup(with: Game.games[indexPath.row])
         return cell
     }
 }
@@ -57,7 +57,7 @@ extension HomeViewController: UICollectionViewDataSource {
 
 extension HomeViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let game = games[indexPath.row]
+        let game = Game.games[indexPath.row]
         print(game.title)
         
         let informationViewController = InformationViewController()

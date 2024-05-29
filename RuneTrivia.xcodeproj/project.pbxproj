@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676A065E2C06CBCE00707E43 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A065D2C06CBCE00707E43 /* HomeCollectionViewController.swift */; };
+		676A06612C06CCA200707E43 /* HomeCollectionViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A06602C06CCA200707E43 /* HomeCollectionViewController+DataSource.swift */; };
 		67792BC72BF7DBE200F073C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BC62BF7DBE200F073C8 /* AppDelegate.swift */; };
 		67792BC92BF7DBE200F073C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BC82BF7DBE200F073C8 /* SceneDelegate.swift */; };
 		67792BCB2BF7DBE200F073C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BCA2BF7DBE200F073C8 /* HomeViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676A065D2C06CBCE00707E43 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		676A06602C06CCA200707E43 /* HomeCollectionViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeCollectionViewController+DataSource.swift"; sourceTree = "<group>"; };
 		67792BC32BF7DBE200F073C8 /* RuneTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuneTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792BC62BF7DBE200F073C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67792BC82BF7DBE200F073C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		676A065F2C06CC8C00707E43 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				676A065D2C06CBCE00707E43 /* HomeCollectionViewController.swift */,
+				676A06602C06CCA200707E43 /* HomeCollectionViewController+DataSource.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		67792BBA2BF7DBE100F073C8 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 		67792BC52BF7DBE200F073C8 /* RuneTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				676A065F2C06CC8C00707E43 /* Home */,
 				67792BF12BF85ECD00F073C8 /* Utility */,
 				67792BEE2BF84AFE00F073C8 /* View Components */,
 				67792BE42BF7F6A800F073C8 /* Models */,
@@ -188,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676A06612C06CCA200707E43 /* HomeCollectionViewController+DataSource.swift in Sources */,
 				67792BF32BF85EE000F073C8 /* OSRSPricesClient.swift in Sources */,
 				67792BF92BF8720100F073C8 /* EntrepRUNEurQuestion.swift in Sources */,
 				67792BCB2BF7DBE200F073C8 /* HomeViewController.swift in Sources */,
@@ -199,6 +214,7 @@
 				67792BE72BF7F6BC00F073C8 /* Game.swift in Sources */,
 				67792BF52BF867B100F073C8 /* LatestPrice.swift in Sources */,
 				67792BC92BF7DBE200F073C8 /* SceneDelegate.swift in Sources */,
+				676A065E2C06CBCE00707E43 /* HomeCollectionViewController.swift in Sources */,
 				67792BF02BF84B4700F073C8 /* ClockView.swift in Sources */,
 				67792BE32BF7F43400F073C8 /* GameCollectionViewCell.swift in Sources */,
 			);
