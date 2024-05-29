@@ -9,7 +9,7 @@ import UIKit
 
 class EntrepRUNEurGameViewController: UIViewController {
 
-    var secondsRemaining: Int = 30
+    var secondsRemaining: Int = 20
     var timer: Timer?
     var latestPriceData: LatestPriceData?
     var pricesMappingData: PriceMappingData?
@@ -194,7 +194,6 @@ extension EntrepRUNEurGameViewController {
         if showingAnswerText {
             showingAnswerText = false
             showAnswerButton.setTitle("Next", for: .normal)
-            updateQuestionCard(showAnswer: true)
             secondsRemaining = 0
             updateTimer()
             
@@ -203,7 +202,7 @@ extension EntrepRUNEurGameViewController {
             currentIndex = (currentIndex! + 1) % questions.count
             updateQuestionCard(showAnswer: false)
             showAnswerButton.setTitle("Show Answer", for: .normal)
-            secondsRemaining = 30
+            secondsRemaining = 15
             startTimer()
             
         }
@@ -239,6 +238,7 @@ extension EntrepRUNEurGameViewController {
         } else {
             clock.updateTimer(to: secondsRemaining)
             stopTimer()
+            updateQuestionCard(showAnswer: true)
         }
     }
     

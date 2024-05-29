@@ -12,7 +12,6 @@
 		67792BCB2BF7DBE200F073C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BCA2BF7DBE200F073C8 /* HomeViewController.swift */; };
 		67792BD02BF7DBE300F073C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67792BCF2BF7DBE300F073C8 /* Assets.xcassets */; };
 		67792BD32BF7DBE300F073C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 67792BD22BF7DBE300F073C8 /* Base */; };
-		67792BE12BF7E2B300F073C8 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BE02BF7E2B300F073C8 /* HomeCollectionViewController.swift */; };
 		67792BE32BF7F43400F073C8 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BE22BF7F43400F073C8 /* GameCollectionViewCell.swift */; };
 		67792BE72BF7F6BC00F073C8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BE62BF7F6BC00F073C8 /* Game.swift */; };
 		67792BE92BF8007500F073C8 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792BE82BF8007500F073C8 /* InformationViewController.swift */; };
@@ -33,7 +32,6 @@
 		67792BCF2BF7DBE300F073C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67792BD22BF7DBE300F073C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67792BD42BF7DBE300F073C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67792BE02BF7E2B300F073C8 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		67792BE22BF7F43400F073C8 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
 		67792BE62BF7F6BC00F073C8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		67792BE82BF8007500F073C8 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				67792BCF2BF7DBE300F073C8 /* Assets.xcassets */,
 				67792BD12BF7DBE300F073C8 /* LaunchScreen.storyboard */,
 				67792BD42BF7DBE300F073C8 /* Info.plist */,
-				67792BE02BF7E2B300F073C8 /* HomeCollectionViewController.swift */,
 				67792BE22BF7F43400F073C8 /* GameCollectionViewCell.swift */,
 				67792BE82BF8007500F073C8 /* InformationViewController.swift */,
 				67792BEC2BF84A4B00F073C8 /* EntrepRUNEurGameViewController.swift */,
@@ -202,7 +199,6 @@
 				67792BE72BF7F6BC00F073C8 /* Game.swift in Sources */,
 				67792BF52BF867B100F073C8 /* LatestPrice.swift in Sources */,
 				67792BC92BF7DBE200F073C8 /* SceneDelegate.swift in Sources */,
-				67792BE12BF7E2B300F073C8 /* HomeCollectionViewController.swift in Sources */,
 				67792BF02BF84B4700F073C8 /* ClockView.swift in Sources */,
 				67792BE32BF7F43400F073C8 /* GameCollectionViewCell.swift in Sources */,
 			);
